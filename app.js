@@ -73,6 +73,10 @@ app.get('/index',function (req, res) {
     res.render('index')
 })
 
+app.get('/',function (req, res) {
+    res.render('index')
+})
+
 app.get('/logout',function (req, res) {
     req.session.destroy(function (err) {
         if (err) {
