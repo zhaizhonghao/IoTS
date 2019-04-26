@@ -117,4 +117,4 @@ app.get('/THData',function (req, res) {
 
 
 
-app.listen(8001,'127.0.0.1')
+app.listen(8001,'0.0.0.0')
